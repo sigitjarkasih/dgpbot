@@ -19,44 +19,46 @@
     <title>Website | DGPBot </title>
   </head>
   <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">DGPBot</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+      <div class="container px-5">
+        <a class="navbar-brand fw-bold" href="https://dgpbot.com/signup?ref=dgjkt">DGPBot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="bi-list"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+            <li class="nav-item"><a class="navbar-brand" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="navbar-brand" href="blog.html">Panduan Pengguna</a></li>
+            <li class="nav-item"><a class="navbar-brand" href="syaratketentuan.html">Syarat&Privasi</a></li>
           </ul>
+          <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="" data-bs-target="#">
+            <a href="https://dgpbot.com/signup?ref=dgjkt" class="btn btn-info font-weight-normal text-capitalize hdBtn ml-md-3 ml-md-6 ml-lg-12 position-relative border-0 p-0" data-hover="Daftar">
+                  <span class="d-block btnText">Daftar</span>
+            </a>
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-        <img src="img/projects/dgpbot.png" alt="Sigit Jarkasih" width="200" class="img-thumbnail" />
-        <h1 class="display-4">DGPBot</h1>
-        <p class="lead">DGPbot adalah bot perdagangan kripto otomatis yang menggabungkan teknologi AI dengan algoritme perdagangan unik kami. <br>
-          Sinyal perdagangan dieksekusi secara otomatis tanpa perlu tindakan pengguna. Bagi mereka yang lebih akrab dengan perdagangan, Anda dapat mengendalikan bot Anda, sesedikit atau sebanyak yang Anda inginkan.
-          DGPbot adalah alat perdagangan crypto yang sempurna untuk pemula, pedagang menengah dan bahkan berpengalaman. DGPbot memaksimalkan keamanan dan keuntungan sambil meminimalkan risiko.</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L80,42.7C160,53,320,75,480,101.3C640,128,800,160,960,144C1120,128,1280,64,1360,32L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-    </section>
-    <!-- Akhir Jumbotron -->
+    <section id="features" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="content-left">
+              <section id="idocs_getting_started">
+                <img src="img/projects/dgpbot.png" width="150"/>
+                <h2>DGPBot</h2>
+                <p class="lead mb-5">DGPbot adalah bot perdagangan kripto otomatis yang menggabungkan teknologi AI dengan algoritme perdagangan unik kami. <br>
+                  Sinyal perdagangan dieksekusi secara otomatis tanpa perlu tindakan pengguna. Bagi mereka yang lebih akrab dengan perdagangan, Anda dapat mengendalikan bot Anda, sesedikit atau sebanyak yang Anda inginkan.
+                  DGPbot adalah alat perdagangan crypto yang sempurna untuk pemula, pedagang menengah dan bahkan berpengalaman. DGPbot memaksimalkan keamanan dan keuntungan sambil meminimalkan risiko.</p>
+                <h4>Layanan yang disediakan oleh DGP</h4>
+                <p class="lead mb-5">Cryptocurrency adalah representasi digital dari nilai yang berfungsi sebagai alat tukar, unit akun, atau penyimpan nilai, tetapi tidak memiliki status legal tender. Cryptocurrency umumnya tidak didukung atau didukung oleh pemerintah atau bank sentral mana pun. Pasar dan pertukaran Cryptocurrency tidak diatur dengan kontrol yang sama atau perlindungan pelanggan yang tersedia dalam ekuitas, opsi, futures, atau investasi valuta asing. Risiko apa pun yang terkait dengan perdagangan mata uang kripto tetap berada di tangan Klien DGP.</p>
+                <hr class="divider">
+              </section>
+                  <section id="idocs_getting_started_installation">
 
     <!-- About -->
     <section id="about">
@@ -114,9 +116,6 @@
                 </div>
             </div>
         </div>
-
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L80,80C160,64,320,32,480,58.7C640,85,800,171,960,181.3C1120,192,1280,128,1360,96L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
 
